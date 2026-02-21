@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login — SemiProp</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="scroll-progress"></div>
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Semi<span>Prop</span></a>
+    <ul class="nav-links">
+      <li><a href="funding.html">Funding</a></li>
+      <li><a href="howitworks.html">How It Works</a></li>
+      <li><a href="rules.html">Rules</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+<div class="nav-mobile">
+  <a href="funding.html">Funding</a><a href="howitworks.html">How It Works</a>
+  <a href="rules.html">Rules</a><a href="about.html">About</a>
+  <a href="team.html">Team</a><a href="contact.html">Contact</a>
+  <a href="acc.html">Get Funded</a>
+</div>
+
+<div class="login-wrap">
+  <div class="login-card fade-up">
+    <div class="login-logo">Semi<span>Prop</span></div>
+    <h2>Welcome back.</h2>
+    <p class="sub">Sign in to your trader dashboard.</p>
+
+    <form class="login-form" novalidate>
+      <div class="form-group">
+        <label class="form-label" for="email-login">Email Address</label>
+        <input type="email" id="email-login" class="form-input" placeholder="you@email.com" autocomplete="email" required/>
+      </div>
+      <div class="form-group" style="margin-bottom:28px;">
+        <label class="form-label" for="pw">Password</label>
+        <div style="position:relative;">
+          <input type="password" id="pw" class="form-input" placeholder="Enter your password" autocomplete="current-password" required style="padding-right:60px;"/>
+          <button type="button" id="toggle-pw" style="position:absolute;right:14px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--g500);cursor:pointer;font-size:13px;font-weight:600;font-family:var(--font-b);">Show</button>
+        </div>
+      </div>
+      <button type="submit" id="login-btn" class="btn btn-primary btn-full" style="font-size:16px;padding:15px;margin-bottom:14px;">Sign In</button>
+      <div style="text-align:center;">
+        <a href="#" style="font-size:13px;color:var(--g400);transition:color .2s ease;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--g400)'">Forgot password?</a>
+      </div>
+    </form>
+
+    <div style="margin-top:28px;padding-top:28px;border-top:1px solid var(--border);text-align:center;">
+      <p style="font-size:14px;color:var(--text-secondary);">No account yet? &nbsp;<a href="acc.html" style="color:var(--white);font-weight:600;">Get Funded →</a></p>
+    </div>
+    <div style="margin-top:14px;text-align:center;">
+      <p style="font-size:11px;color:var(--g600);">Protected by industry-standard encryption &nbsp;·&nbsp; <a href="#" style="color:var(--g600);text-decoration:underline;">Privacy</a></p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

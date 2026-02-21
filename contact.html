@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — SemiProp</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="scroll-progress"></div>
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Semi<span>Prop</span></a>
+    <ul class="nav-links">
+      <li><a href="funding.html">Funding</a></li>
+      <li><a href="howitworks.html">How It Works</a></li>
+      <li><a href="rules.html">Rules</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="login.html" class="btn-nav">Login</a></li>
+    </ul>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+<div class="nav-mobile">
+  <a href="funding.html">Funding</a><a href="howitworks.html">How It Works</a>
+  <a href="rules.html">Rules</a><a href="about.html">About</a>
+  <a href="team.html">Team</a><a href="contact.html">Contact</a>
+  <a href="acc.html">Get Funded</a><a href="login.html">Login</a>
+</div>
+
+<div class="page-hero">
+  <div class="container">
+    <p class="eyebrow fade-up">Get In Touch</p>
+    <h1 class="fade-up d1">We're here<br/>to help.</h1>
+    <p class="fade-up d2" style="font-size:19px;color:var(--text-secondary);max-width:460px;margin:16px auto 0;">Questions about evaluations, payouts, or anything else? We respond within 24 hours.</p>
+  </div>
+</div>
+
+<section class="section" style="padding-top:32px;">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Info -->
+      <div class="fade-up">
+        <p class="eyebrow">Contact Information</p>
+        <h2 style="font-size:34px;margin-bottom:16px;">Reach out anytime.</h2>
+        <p style="color:var(--text-secondary);margin-bottom:0;">Our support team is available every business day, ready to help with evaluations, payouts, or any general questions.</p>
+
+        <div style="margin-top:36px;">
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div><div class="contact-label">Email</div><div class="contact-val">support@semiprop.in</div></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">🕐</div>
+            <div><div class="contact-label">Office Hours</div><div class="contact-val">Mon–Sat · 10AM – 7PM IST</div></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div><div class="contact-label">Location</div><div class="contact-val">West Bengal, India</div></div>
+          </div>
+          <div class="contact-item" style="border-bottom:none;">
+            <div class="contact-icon">⚡</div>
+            <div><div class="contact-label">Response Time</div><div class="contact-val">Within 24 hours on business days</div></div>
+          </div>
+        </div>
+
+        <div style="margin-top:44px;">
+          <h3 style="font-size:17px;margin-bottom:18px;">Quick Resources</h3>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <a href="howitworks.html" style="font-size:14px;color:var(--g300);display:flex;align-items:center;gap:8px;transition:color .2s ease;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--g300)'">→ How the evaluation works</a>
+            <a href="rules.html" style="font-size:14px;color:var(--g300);display:flex;align-items:center;gap:8px;transition:color .2s ease;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--g300)'">→ Full trading rules</a>
+            <a href="funding.html" style="font-size:14px;color:var(--g300);display:flex;align-items:center;gap:8px;transition:color .2s ease;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--g300)'">→ Compare funding plans</a>
+            <a href="team.html" style="font-size:14px;color:var(--g300);display:flex;align-items:center;gap:8px;transition:color .2s ease;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='var(--g300)'">→ Meet the team</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="form-block fade-up d2">
+        <h3 style="margin-bottom:6px;font-size:22px;">Send a message</h3>
+        <p style="font-size:14px;color:var(--text-secondary);margin-bottom:32px;">We'll get back to you within 24 hours.</p>
+        <form class="contact-form" novalidate>
+          <div class="grid-2" style="gap:16px;">
+            <div class="form-group">
+              <label class="form-label" for="fname">First Name</label>
+              <input type="text" id="fname" class="form-input" placeholder="Arjun" required/>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="lname">Last Name</label>
+              <input type="text" id="lname" class="form-input" placeholder="Sharma" required/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address</label>
+            <input type="email" id="email" class="form-input" placeholder="you@email.com" required/>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="subject">Subject</label>
+            <select id="subject" class="form-input">
+              <option value="" disabled selected>Choose a topic</option>
+              <option>General Inquiry</option>
+              <option>Evaluation Support</option>
+              <option>Payout Question</option>
+              <option>Technical Issue</option>
+              <option>Partnership</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="msg">Message</label>
+            <textarea id="msg" class="form-input" rows="5" placeholder="Tell us how we can help…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" style="font-size:16px;padding:15px;">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><a href="index.html" class="footer-logo">Semi<span>Prop</span></a><p>SemiProp is a proprietary trading firm providing capital to skilled crypto traders.</p></div>
+      <div class="footer-col"><h4>Products</h4><ul><li><a href="funding.html">Funding Plans</a></li><li><a href="acc.html">Buy Account</a></li><li><a href="howitworks.html">How It Works</a></li><li><a href="rules.html">Rules</a></li></ul></div>
+      <div class="footer-col"><h4>Company</h4><ul><li><a href="about.html">About</a></li><li><a href="team.html">Team</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Legal</h4><ul><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms of Service</a></li><li><a href="#">Risk Disclosure</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 SemiProp. All rights reserved.</p><p>Trading involves risk of loss.</p></div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
